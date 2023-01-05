@@ -24,6 +24,11 @@ nav{
     font-weight: 800;
     font-size: 45px;
 }
+.text2{
+    color: #FD6E0A;
+    font-weight: 600;
+    font-size: 22px;
+}
 nav ul{
     list-style-type: none;
     display: flex;
