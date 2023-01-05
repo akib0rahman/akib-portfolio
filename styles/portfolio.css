@@ -90,3 +90,115 @@ nav ul li{
 .banner-btn2:hover{
     background-color: rgba(118, 117, 117, 0.695);
 }
+
+/* Main */
+
+main{
+    background: #FFF8F3;
+    max-width: 1140px;
+    margin:130px 230px;
+}
+.main{
+    padding: 130px 160px;
+}
+
+.main-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact-info{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.inside-contact{
+    text-align: center;   
+}
+.details{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* What i do section */
+.what-i-do{
+    max-width: 1140px;
+    margin:130px 230px;
+}
+.skills{
+    display:flex;
+    justify-content: space-between;
+    padding: 0 180px;
+}
+.skills-des{
+    background-color: #e8e6dfd8;
+    padding: 30px;
+    margin:auto;
+    width: 100px;
+    box-shadow: 5px 5px 8px rgb(203, 203, 202);
+}
+
+.what-i-do-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.what-i-do-des{
+    margin-bottom: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+}
+.resume{
+    max-width: 1140px;
+    margin:130px 230px;
+}
+.resume-title{
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.resume-section{
+    display: flex;
+    justify-content: center;
+}
+.edu-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.exp-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.edu-details{
+    font-weight: 700;
+    font-size: 23px;
+}
+.edu-details-more{
+    font-weight: 700;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+.resume-paragraph{
+    text-align: justify;
+}
+
+/* Footer section */
+.footer{
+    background: #FFF8F3;
+    padding:130px 230px;
+    display:flex;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.connect{
+    margin-right: 10px;
+}
