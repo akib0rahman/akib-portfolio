@@ -4,6 +4,9 @@
     font-weight: 400;
     font-size: 20px;
 }
+.under-work{
+    display: none;
+}
 .header {
     background: #FFF8F3;
 }
@@ -212,4 +215,72 @@ main{
     margin-bottom: 10px;
     width: fit-content;
     border:none;
+}
+
+@media screen and (max-width:576px) {
+    .footer,.resume-section,.skills, .contact-info {
+        padding: 10px 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-title, .edu-title  {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    .resume-title{
+        font-size: 28px
+    }
+    p {
+        display: block;
+        font:14px;
+    }
+    .message input[type="text"], input[type="email"], textarea {
+        width: 100%;
+        margin-right: 10px;
+    }
+    .resume {
+        max-width: 1140px;
+        margin: 30px 20px;
+    }
+    .resume-section {
+        display: flex;
+        gap: 20px;
+    }
+    .footer .footer-title, p, form{
+        margin: 0 20px;
+    }
+    .resume p{
+        margin-left: 0px;
+    }
+    .resume .edu-title{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        border-bottom: 1px dashed;
+    }
+    .what-i-do {
+        max-width: 1140px;
+        margin: 130px 20px;
+    }
+    .what-i-do-des {
+        margin-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: justify;
+    }
+    .main {
+        padding: 0px 0px;
+       
+    }
+    main{
+        margin:20px 20px;
+    }
+    .contact-info p{
+        text-align: center;
+    }
+    .contact-info h2{
+        font-size: 1.2em;
+        border-bottom: 1px dashed;
+    }
+    
 }
